@@ -438,6 +438,10 @@ img {
         display: none;
     }
 
+    .menu_btn{
+        display: block;
+    }
+
     .title {
         font-size: 52px;
     }
@@ -503,11 +507,7 @@ img {
         margin: 20px 0 15px;
     }
 
-    .menu_btn {
-        display: block;
-    }
-
-
+ 
     .title {
         font-size: 45px;
         line-height: 40px;
