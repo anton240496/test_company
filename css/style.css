@@ -483,6 +483,14 @@ img {
 }
 
 
+
+@media (max-width: 550px) {
+    .dots {
+        transform: translate(25%, -50%);
+    }
+}
+
+
 @media (max-width: 390px) {
 
     .slider_item,
