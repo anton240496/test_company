@@ -1,8 +1,7 @@
 const swiper = new Swiper('.swiper_inner', {
   // Optional parameters
   loop: true,
-  slidesPerView: 3,
-  slidesPerGroup: 3,
+  slidesPerView: 1,
   infinite: true,
   navigation: {
     nextEl: '.arrow_right',
@@ -13,5 +12,15 @@ const swiper = new Swiper('.swiper_inner', {
     el: '.dots',
     clickable: true
   },
+
+  breakpoints: {
+    800: {
+      slidesPerView: 3,
+    },
+    500: {
+      slidesPerView: 2,
+    }
+  }
+
 
 });
